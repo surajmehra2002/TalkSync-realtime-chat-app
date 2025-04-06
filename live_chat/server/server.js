@@ -8,7 +8,7 @@ const app = express();
 
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://suryagroup:pUimq6aSocQYZkYw@clustermain0.tfx64.mongodb.net/LiveChat").then(() => console.log("MongoDB Connected"))
+mongoose.connect("<--mongodb connection-->").then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("MongoDB Connection Error:", err));
 
 // Define Message Schema & Model
